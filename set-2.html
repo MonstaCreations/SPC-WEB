@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP Consulting | Structural & MEP Experts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+        h1, h2, h3, .heading-font { font-family: 'Oswald', sans-serif; text-transform: uppercase; }
+        
+        .bg-navy { background-color: #0A192F; } /* Deepest Navy */
+        .text-brand-blue { color: #3E7CB1; } /* Logo Blue */
+        
+        .diagonal-bg {
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        }
+        
+        .service-card:hover .service-overlay {
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="bg-white border-b border-gray-200 py-3 px-6 hidden md:flex justify-between items-center sticky top-0 z-[100]">
+        <div class="flex gap-8 text-[10px] font-bold tracking-widest text-gray-400">
+            <span>STRUCTURAL CONSULTING</span>
+            <span>MEP DESIGN</span>
+            <span>BUILDING AUDITS</span>
+        </div>
+        <div class="flex gap-6">
+            <span class="text-xs font-bold text-navy underline decoration-brand-blue decoration-2 uppercase">Bangalore, India</span>
+            <span class="text-xs font-bold text-navy uppercase">+91 000 000 0000</span>
+        </div>
+    </div>
+
+    <header class="relative bg-navy min-h-screen flex flex-col lg:flex-row overflow-hidden">
+        <div class="lg:w-1/2 p-8 lg:p-24 flex flex-col justify-center z-10 text-white">
+            <div class="w-20 h-2 bg-brand-blue mb-8"></div>
+            <h1 class="text-6xl lg:text-8xl font-bold leading-none mb-6">
+                Engineering <br> <span class="text-brand-blue italic">Integrity.</span>
+            </h1>
+            <p class="text-lg lg:text-xl text-gray-400 max-w-md mb-12 font-light">
+                SP Consulting Services: Providing technical precision and structural safety through simplified engineering solutions.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <button class="bg-brand-blue text-white px-8 py-4 font-bold tracking-widest hover:bg-white hover:text-navy transition-all uppercase">Our Expertise</button>
+                <button class="border border-white/30 text-white px-8 py-4 font-bold tracking-widest hover:bg-white/10 transition-all uppercase">View Projects</button>
+            </div>
+        </div>
+
+        <div class="lg:w-1/2 relative">
+            <div class="absolute inset-0 bg-brand-blue/20 z-10"></div>
+            <img src="https://images.unsplash.com/photo-1517089596392-db9a5e9428fe?auto=format&fit=crop&q=80" class="h-full w-full object-cover grayscale brightness-50" alt="Construction">
+            
+            <div class="absolute bottom-12 right-0 bg-white p-8 lg:p-12 z-20 shadow-2xl">
+                <p class="text-navy text-sm font-bold tracking-[0.3em] uppercase mb-2">The Mission</p>
+                <p class="text-2xl lg:text-3xl font-bold text-navy italic">"Engineered To Simplify"</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-24 px-6 lg:px-24">
+        <div class="flex flex-col lg:flex-row justify-between items-end mb-16">
+            <div class="max-w-2xl">
+                <h2 class="text-5xl lg:text-6xl font-bold text-navy mb-4">Core Services</h2>
+                <p class="text-gray-500 border-l-4 border-brand-blue pl-6 py-2">We bridge the gap between complex architectural vision and physical structural reality.</p>
+            </div>
+            <a href="#" class="text-sm font-bold text-brand-blue mt-8 lg:mt-0 underline uppercase tracking-widest">Download Firm Profile</a>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="relative group overflow-hidden bg-navy aspect-[4/5]">
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-110 transition-transform duration-700" alt="Audit">
+                <div class="absolute inset-0 p-10 flex flex-col justify-end z-20 text-white">
+                    <span class="text-xs font-bold text-brand-blue mb-2 tracking-widest">01</span>
+                    <h3 class="text-4xl font-bold mb-4">Building <br> Audit</h3>
+                    <div class="h-1 w-12 bg-brand-blue mb-4 group-hover:w-full transition-all duration-500"></div>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 text-gray-300">Detailed structural health checks, MEP inspections, and safety certification.</p>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-navy to-transparent opacity-80"></div>
+            </div>
+
+            <div class="relative group overflow-hidden bg-navy aspect-[4/5]">
+                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-110 transition-transform duration-700" alt="Construction">
+                <div class="absolute inset-0 p-10 flex flex-col justify-end z-20 text-white">
+                    <span class="text-xs font-bold text-brand-blue mb-2 tracking-widest">02</span>
+                    <h3 class="text-4xl font-bold mb-4">Construction <br> Management</h3>
+                    <div class="h-1 w-12 bg-brand-blue mb-4 group-hover:w-full transition-all duration-500"></div>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 text-gray-300">Ensuring execution follows engineering standards with on-site supervision.</p>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-navy to-transparent opacity-80"></div>
+            </div>
+
+            <div class="relative group overflow-hidden bg-navy aspect-[4/5]">
+                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-110 transition-transform duration-700" alt="Design">
+                <div class="absolute inset-0 p-10 flex flex-col justify-end z-20 text-white">
+                    <span class="text-xs font-bold text-brand-blue mb-2 tracking-widest">03</span>
+                    <h3 class="text-4xl font-bold mb-4">Structural <br> & MEP Design</h3>
+                    <div class="h-1 w-12 bg-brand-blue mb-4 group-hover:w-full transition-all duration-500"></div>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 text-gray-300">Technical blueprints and planning for structural stability and system efficiency.</p>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-navy to-transparent opacity-80"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-gray-200 py-16 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <h4 class="text-3xl font-bold text-navy tracking-tighter">SP CONSULTING SERVICES</h4>
+                <p class="text-brand-blue font-bold tracking-[0.4em] text-[10px] uppercase">Engineered To Simplify</p>
+            </div>
+            <div class="flex gap-12 text-xs font-bold tracking-widest text-gray-400 uppercase">
+                <a href="#" class="hover:text-navy">Privacy</a>
+                <a href="#" class="hover:text-navy">Terms</a>
+                <a href="#" class="hover:text-navy">Consultancy</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
